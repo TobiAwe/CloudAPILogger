@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudAPILogger.Core", "CloudAPILogger.Core\CloudAPILogger.Core.csproj", "{CCA5AA0C-836C-422D-ABFF-960184C96999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudAPILogger.Data", "CloudAPILogger.Data\CloudAPILogger.Data.csproj", "{17D090B9-B28D-4826-9BA2-D38C8D0373FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudAPILogger.Service", "CloudAPILogger.Service\CloudAPILogger.Service.csproj", "{4AB10F33-1621-4D81-8993-951BAC5A6323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudAPILogger.API", "CloudAPILogger.API\CloudAPILogger.API.csproj", "{8807C5D8-08F8-45BD-A68D-CAFBBF31ED94}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA5AA0C-836C-422D-ABFF-960184C96999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA5AA0C-836C-422D-ABFF-960184C96999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA5AA0C-836C-422D-ABFF-960184C96999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA5AA0C-836C-422D-ABFF-960184C96999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D090B9-B28D-4826-9BA2-D38C8D0373FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D090B9-B28D-4826-9BA2-D38C8D0373FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D090B9-B28D-4826-9BA2-D38C8D0373FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D090B9-B28D-4826-9BA2-D38C8D0373FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB10F33-1621-4D81-8993-951BAC5A6323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB10F33-1621-4D81-8993-951BAC5A6323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB10F33-1621-4D81-8993-951BAC5A6323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB10F33-1621-4D81-8993-951BAC5A6323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8807C5D8-08F8-45BD-A68D-CAFBBF31ED94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8807C5D8-08F8-45BD-A68D-CAFBBF31ED94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8807C5D8-08F8-45BD-A68D-CAFBBF31ED94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8807C5D8-08F8-45BD-A68D-CAFBBF31ED94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
